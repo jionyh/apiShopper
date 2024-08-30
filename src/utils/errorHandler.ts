@@ -4,7 +4,7 @@ import { ZodIssue } from 'zod';
 export enum ErrorMessages {
   INVALID_TYPE = 'Tipo de medição não permitida',
   MEASURES_NOT_FOUND = 'Nenhuma leitura encontrada',
-  MEASURE_NOT_FOUND= '"Leitura do mês não encontrada',
+  MEASURE_NOT_FOUND= 'Leitura do mês não encontrada',
   DOUBLE_REPORT = 'Leitura do mês já realizada',
   CONFIRMATION_DUPLICATE = 'Leitura do mês já realizada',}
 
